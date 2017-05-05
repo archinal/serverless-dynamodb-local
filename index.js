@@ -91,7 +91,7 @@ class ServerlessDynamodbLocal {
             "dynamodb:remove:removeHandler": this.removeHandler.bind(this),
             "dynamodb:install:installHandler": this.installHandler.bind(this),
             "dynamodb:start:startHandler": this.startHandler.bind(this),
-            "before:offline:start:init": this.startHandler.bind(this),
+            "before:offline:start": this.startHandler.bind(this),
             "before:offline:start:end": this.endHandler.bind(this),
         };
     }
